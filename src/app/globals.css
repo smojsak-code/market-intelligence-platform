@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-vault-bg text-slate-100;
+}
+
+.input {
+  @apply rounded border border-vault-border bg-vault-bg px-3 py-2 text-sm text-slate-100;
+}
