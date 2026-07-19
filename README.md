@@ -92,6 +92,13 @@ Per the roadmap in the product plan, these are **not** built yet:
 
 These map to Releases 2–7 in the product plan.
 
+## Live demo
+
+Deployed at https://dainty-figolla-854ba2.netlify.app (auto-deploys from
+`main` via Netlify). Sign up with any email/password to explore — the
+Data Vault is pre-seeded with taxonomy, ~25 starter companies, and one
+real signal + alert (UiPath) from the ingestion pipeline example.
+
 ## Project structure
 
 ```
@@ -102,5 +109,3 @@ scripts/             Ingestion pipeline reference implementation
 supabase/migrations/ Versioned schema (source of truth also applied to the live project)
 supabase/seed.sql    Taxonomy + starter watchlist of ~25 SaaS companies
 ```
-
-<!-- trigger redeploy with Supabase env vars -->
