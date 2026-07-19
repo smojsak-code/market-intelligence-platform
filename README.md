@@ -102,3 +102,5 @@ scripts/             Ingestion pipeline reference implementation
 supabase/migrations/ Versioned schema (source of truth also applied to the live project)
 supabase/seed.sql    Taxonomy + starter watchlist of ~25 SaaS companies
 ```
+
+<!-- trigger redeploy with Supabase env vars -->
